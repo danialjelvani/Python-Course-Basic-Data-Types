@@ -1,0 +1,8 @@
+print(set(range(3, 100, 3)))
+print('\n', set(range(5, 100, 5)))
+a3 = set(range(3, 100, 3))
+a5 = set(range(5, 100, 5))
+print('\n', set(a3 & a5))
+print('\n', set(a5.intersection(a3)))
+print('\n', a3.union(a5))
+print('\n', set(a3 | a5))

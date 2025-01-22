@@ -1,0 +1,1 @@
+print(hash('danial')%10)
